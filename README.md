@@ -30,3 +30,10 @@ No prerequisites are required other than a web browser.
 1. Clone the repo
    ```sh
    git clone the project repo url
+
+## File Structure
+
+contact-form-html-css/
+├── index.html
+├── styles.css
+└── README.md
