@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+}
+
+.contact-form label {
+    display: block;
+    margin: 15px 0 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form .radio-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.contact-form .radio-group input[type="radio"] {
+    display: none;
+}
+
+.contact-form .radio-group label {
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.contact-form .radio-group label:last-child {
+    margin-right: 0;
+}
+
+.contact-form .radio-group input[type="radio"]:checked + label {
+    background-color: #e0f7fa;
+    border-color: #00acc1;
+    color: #00acc1;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.contact-form .checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.contact-form button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
