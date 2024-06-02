@@ -33,7 +33,7 @@ No prerequisites are required other than a web browser.
 
 ## File Structure
 
-contact-form-html-css/
-├── index.html
-├── styles.css
-└── README.md
+- contact-form-html-css/
+- ├── index.html
+- ├── styles.css
+- └── README.md
